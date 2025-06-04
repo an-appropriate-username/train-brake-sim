@@ -17,12 +17,12 @@ A physics-based simulator for evaluating train braking performance under various
   > μ_effective = Friction Coefficient × (Brake Pad Wear)^2
 
   - Converts hydraulic pressure to mechanical force
-  - Accounts for pad wear, weather and debris
 
 2. **Deceleration Dynamics**
   > a = (Total Force × Adhesion Factor) / Mass
 
   - Adhesion factors: Dry rail, rain, autumn and snow.
+  - Accounts for pad wear, weather and debris
 
 3. **Stopping Distance**
   > Total Distance = (Initial Speed × Brake Delay) + (Speed² / (2 × a))
