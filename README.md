@@ -79,6 +79,6 @@ A physics-based simulator for evaluating train braking performance under various
 ## Installation and Usage
 
 - Clone train-brake-sim
-- Install 'requirements.txt'
+- python -m pip install -r requirements.txt
 - Set parameters in 'main.py'
 - Run 'python main.py'
