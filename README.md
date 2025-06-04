@@ -28,7 +28,6 @@ A physics-based simulator for evaluating train braking performance under various
   > Total Distance = (Initial Speed × Brake Delay) + (Speed² / (2 × a))
 
   - Includes dynamic system response delay
-  - Accounts for rail adhesion
   - Accounts for brake delay
 
 ## Component Architecture
