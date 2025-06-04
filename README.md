@@ -12,19 +12,19 @@ A physics-based simulator for evaluating train braking performance under various
 ## Physics Model
 
 ### Core Calculations
-1. **Brake Force Calculation**
+#### 1. **Brake Force Calculation**
   - Force = (Pressure × 100,000) × Piston Area × μ_effective 
   - μ_effective = Friction Coefficient × (Brake Pad Wear)^2
 
   - Converts hydraulic pressure to mechanical force
 
-2. **Deceleration Dynamics**
+#### 2. **Deceleration Dynamics**
   - a = (Total Force × Adhesion Factor) / Mass
 
   - Adhesion factors: Dry rail, rain, autumn and snow.
   - Accounts for pad wear, weather and debris
 
-3. **Stopping Distance**
+#### 3. **Stopping Distance**
   - Total Distance = (Initial Speed × Brake Delay) + (Speed² / (2 × a))
 
   - Includes dynamic system response delay
